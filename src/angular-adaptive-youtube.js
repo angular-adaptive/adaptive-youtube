@@ -12,7 +12,7 @@
    */
   var adaptive = angular.module('adaptive.youtube', []);
 
-  adaptive.controller('YoutubeCtrl', ['$scope', '$element', '$log', function ($scope, $element, $log) {
+  adaptive.controller('YoutubeCtrl', ['$scope', '$element', '$log', function ($scope) {
 
     $scope.updateStyle = function(videoId){
       var videoImage = 'http://img.youtube.com/vi/' + videoId + '/0.jpg';
@@ -45,7 +45,7 @@
         video: '='
       },
 
-      link: function postLink(scope, element, attrs, ctrl) {
+      link: function postLink(scope, element) {
 
         if (scope.video === undefined) {
           throw new Error('The `videoId` attribute is required.');

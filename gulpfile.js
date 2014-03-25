@@ -24,7 +24,7 @@ var banner = [
   ].join('\n');
 
 var codeFiles = ['src/*.js'];
-var testFiles = ['src/*.js', 'test/*.spec.js'];
+var testFiles = ['bower_components/angular/angular.js', 'bower_components/angular-mocks/angular-mocks.js', 'src/*.js', 'test/*.spec.js'];
 
 gulp.task('lint', function(){
   log('Linting Files');

@@ -6,6 +6,7 @@
   "globals": {
     "window": true,
     "document": true,
+    "angular": true,
     "describe": true,
     "it": true,
     "beforeEach": true,
