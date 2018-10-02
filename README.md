@@ -1,3 +1,7 @@
+# This repository is deprecated!
+
+---
+
 # angular-adaptive-youtube v0.1.0 [![Build Status](https://travis-ci.org/angular-adaptive/adaptive-youtube.png?branch=master)](https://travis-ci.org/angular-adaptive/adaptive-youtube)
 
 Save data, conditionally load youtube videos.
